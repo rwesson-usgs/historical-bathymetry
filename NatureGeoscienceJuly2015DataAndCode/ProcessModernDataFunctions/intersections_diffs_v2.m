@@ -1,6 +1,6 @@
 function [ x0,y0,iout,jout,zi,zj,dz ] = intersections_diffs_v2(xp,yp,x1,y1,z1,x2,y2,z2)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 switch nargin
 	case 5
         ip = inpolygon(x1,y1,xp,yp);

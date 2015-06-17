@@ -1,3 +1,8 @@
+%   Calculate depth differences between aggregate post-earthquake model and
+%   earlier surveys
+
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 
 clear 
 
@@ -8,19 +13,23 @@ load HistoricalData/HistoricalData_georeferenced
 load AggregateModel/GarminModelcor
 load AggregateModel/CorrectedGarminData
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Net corrections to get to MSL
 
+%   Mean truncation error
 MTE1804 = 0.418;
 MTE1835 = 0.2285;
 MTE1886 = 0.25;
 
+%   Correction from survey datum to MSL
 CtoMSL = 0.9;
 
+%   Correction for sea level rise
 CforSLR1804 = 0.2;
 CforSLR1835 = 0.2;
 CforSLR1886 = 0.2;
 
 %   Correction = MTE + CtoMSL + SLRise
-
 z1886mc = z1886m + MTE1886 + CtoMSL + CforSLR1886;
 z1835mc = z1835m + MTE1835 + CtoMSL + CforSLR1835;
 z1804mc = z1804m + MTE1804 + CtoMSL + CforSLR1804;
