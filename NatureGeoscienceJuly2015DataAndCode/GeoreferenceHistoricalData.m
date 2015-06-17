@@ -1,7 +1,7 @@
 %   Basic georeferencing for historical charts used in
 %   Nature Geoscience paper, July, 2015
 %   Rob Wesson
-
+  
 
 clear
 
