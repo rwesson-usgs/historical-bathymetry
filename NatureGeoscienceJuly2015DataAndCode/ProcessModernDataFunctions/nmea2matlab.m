@@ -1,6 +1,6 @@
 function B = nmea2matlab( filename)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 fid = fopen(filename)
 i = 0
 tline = fgetl(fid);

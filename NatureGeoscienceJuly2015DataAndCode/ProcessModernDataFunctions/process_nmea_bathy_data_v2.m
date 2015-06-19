@@ -1,5 +1,6 @@
 function [depmat t tbegin tend zbest] = process_nmea_bathy_data(filename,yr,mo,day,lat,lon)
-
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 path(path,'/Applications/tmd_toolbox')
 path(path,'/Applications/tmd_toolbox/DATA')
 

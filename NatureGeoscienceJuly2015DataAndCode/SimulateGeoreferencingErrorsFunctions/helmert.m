@@ -1,4 +1,6 @@
 function [ x y ] = helmert( p,q,p0,q0,x0,y0,abcd)
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 
 [m n] = size(p);
 if n ~= 1

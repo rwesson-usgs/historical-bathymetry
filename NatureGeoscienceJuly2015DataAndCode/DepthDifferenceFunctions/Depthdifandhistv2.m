@@ -1,6 +1,6 @@
 function [meandz,stddz,ndz,steofmean,uncormeandz] = Depthdifandhist(F,X,Y,Z,xp,yp,x,y,zc,dDz,plottitle)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 bins = -10:.1:10;
 contours = [0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 -15 -16 -17 -18 -19 -20 -21 -22 -23 -24 -25 -26 -27 -28 -29 -30 -31 -32 -33];
 formatSpec = '%3.2f\n';

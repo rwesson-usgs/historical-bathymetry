@@ -1,5 +1,6 @@
 function [ x y z t v] = clean( x,y,z,t,deltatsample)
-%UNTITLED2 Summary of this function goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 %   deltatsample is sample interval in seconds
 %
 %   Eliminate NaN's

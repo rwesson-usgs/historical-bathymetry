@@ -1,7 +1,7 @@
 function depth_file = depth_extract_v3( yr,mo,day,B )
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 %   B is matlab Nmea file
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
 nrec= length(B);
 irec = 1;
 for i=1:nrec

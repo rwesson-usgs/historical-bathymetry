@@ -1,6 +1,6 @@
 function tm = trimmeannan(x,percent)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 [m n] = size(x);
 if n==1
     iok = find(~isnan(x));

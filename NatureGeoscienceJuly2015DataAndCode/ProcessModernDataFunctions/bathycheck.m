@@ -1,6 +1,6 @@
 function bathycheck(titlestr,x,y,z )
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 
 F = TriScatteredInterp(x,y,z);
 [Xa Ya] = meshgrid(6.31e5:50:6.4e5,5.892e6:50:5.9e6);

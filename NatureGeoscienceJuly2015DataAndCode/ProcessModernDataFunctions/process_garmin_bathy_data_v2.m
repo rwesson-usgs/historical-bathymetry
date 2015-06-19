@@ -1,4 +1,6 @@
 function [depmat t tbegin tend zbest elev] = process_garmin_bathy_data_v2(B,yr,mo,day,lat,lon,nsmooth)
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 
 path(path,'/Applications/tmd_toolbox')
 path(path,'/Applications/tmd_toolbox/DATA')

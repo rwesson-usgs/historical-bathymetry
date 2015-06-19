@@ -1,6 +1,6 @@
 function y = smoother2( x,n)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 nx = length(x);
 n2 = floor(n/2);
 for i=1:length(x)

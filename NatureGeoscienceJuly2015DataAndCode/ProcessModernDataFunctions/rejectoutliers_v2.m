@@ -1,6 +1,6 @@
 function [ y mnx medx stdx trmnx ] = rejectoutliers_v2(t,x,min_x,max_x,npt,dz)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 imin = find(x<min_x);
 x(imin) = NaN;
 imax = find(x>max_x);

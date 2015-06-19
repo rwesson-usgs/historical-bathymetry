@@ -1,5 +1,6 @@
 function [abcd x0 y0 p0 q0 rmserr flag] = findhelmert( x,y,p,q )
-%UNTITLED Summary of this function goes here
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 
 [m n] = size(x);
 if n ~= 1

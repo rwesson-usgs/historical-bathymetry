@@ -1,4 +1,7 @@
 function [dz mndz mndzc sddz ndz zest] = compare_depthsv2_2015(F,X,Y,Z,x,y,z,ipoly,xpoly,ypoly,dDz,iplot,bins,plottitle )
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
+
 %   F,X,Y,Z model
 %   x,y,z data
 %   if ipoly ==1, calculate statistics only for obs within poy defined by

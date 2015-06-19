@@ -1,4 +1,6 @@
 function abcd = find_transformations_v3(r,s,r0,s0,r1,s1,p0,p1,q0,q1,xim,yim)
+%   Used in Nature Geoscience paper, July, 2015
+%   Rob Wesson
 %
 %   Find transformation from pixel to utm  by
 %   solving lsq matrix equation 
